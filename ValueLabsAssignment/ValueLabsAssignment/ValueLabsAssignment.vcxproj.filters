@@ -1,0 +1,2409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MFCGridFiles">
+      <UniqueIdentifier>{48d1f52d-6309-4e2c-aa72-da099f040314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TChartfiles">
+      <UniqueIdentifier>{07887427-9fc1-4756-8c39-2d6397921ccc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ValueLabsAssignment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueLabsAssignmentDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueLabsAssignmentView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputcustomer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSales.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\CellRange.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\GridCell.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\GridCellBase.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\GridCtrl.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\GridDropTarget.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\InPlaceEdit.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\MemDC.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MFCGridfiles\TitleTip.h">
+      <Filter>MFCGridFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\activitydonut.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\activitygauge.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\adxfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\alligatorfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\amountfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\animationlist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\animations.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\annotationcallout.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\annotationtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\antialiastool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\areaseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\arrowseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\arrowtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\aspect.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\atrfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\automatictext.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\averagefunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axes.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axis.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axisarrowtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axisbreak.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axisbreaks.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axisbreakstool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axisgridpen.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axislabels.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axislabelsitem.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axisscrollbartool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axisscrolltool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\axistitle.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\backimage.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bannertool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bar3dseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\barjoinseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\barseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bevelfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bezierseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\blurfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bmpexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bollingerfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\boxplotseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\brightnessfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\brush.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bubble3dseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\bubbleseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\calendarcell.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\calendarcellupper.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\calendarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\candleseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\canvas.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\ccifunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartanimations.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartaxispen.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartcollection.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\charteditorpanel.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartfont.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartgrid.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartgridcols.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartgridnavigator.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartgridrows.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\charthiddenpen.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartimagetool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\chartpagenavigator.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\circlelabels.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\circulargauge.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\clipseriestool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\clockgauge.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\clockhand.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\clockseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\clusteringtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\clvfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\colorbandtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\colorfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\colorgridseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\colorlinetool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\compressfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\contourlevel.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\contourlevels.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\contourmarks.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\contourseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\contrastfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\cropfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\crosstabsource.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\cursortool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\curvefittingfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\custom3dpaletteseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\customaxes.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\customfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\customserieslist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\customtextshape.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\darvasseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\datatabletool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\deltapointseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\donutseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\doublehorizbarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\downsamplingfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\dragmarkstool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\dragpointtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\drawline.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\drawlinelist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\drawlinetool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\embossfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\environment.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\epsexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\equalizerseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\equivolumeseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errorbarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errorpoint3dseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errorpointseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errors.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errors3d.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errors3dformat.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errorseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\errorsformat.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\expandanimation.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\expavgfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\explodedslices.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\expmovavgfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\export.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\extralegendtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\fadertool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\fastlineseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\fibonacciitem.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\fibonaccilevels.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\fibonaccitool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\filteritems.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\filterregion.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\flexexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\floatxyz.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\framebrush.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\framedborder.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\frametool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\fullscreentool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\funnelseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gammacorrectionfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\ganttseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gantttool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugehand.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugehanditem.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugehands.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugepointerrange.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugerange.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugeranges.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugeseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gaugeseriespointer.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gifexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gllightsource.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\glposition.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gradient.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gradientcolor.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gradientcolors.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\grayscalefilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gridbandbrush.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gridbandtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\gridtransposetool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\hierarchicalclustering.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\highlowlineseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\highlowseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\histogramfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\histogramseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\horizareaseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\horizbarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\horizboxplotseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\horizhistogramseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\horizlineseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\hover.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\htmlexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\huelumsatfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\imagebarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\imagepointseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\import.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\isosurfaceseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\javascriptexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\jpegexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\jsonexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\kagiseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\kmeansclustering.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\knobgauge.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legend.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legenditem.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legenditems.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legendpalettetool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legendpointer.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legendscrollbartool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legendsymbol.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\legendtitle.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\levelsegment.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\lightfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\lighttool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\lineargauge.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\linepointseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\lineseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\linktool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\macdfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\magnifytool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\mapmarks.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\mappolygon.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\mappolygonlist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\mapseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\margins.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\marks.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\markscallout.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\marksitem.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\markssymbol.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\markstail.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\markstiptool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\medianfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\metafileexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\mirrorfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\modefunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\moneyflowfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\mosaicfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\movingavgfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\nativeexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\nearesttool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\numericgauge.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\numericmarker.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\obvfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\odsexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\orgitem.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\orgitemcollection.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\orgseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\orgshape.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\page.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pagecontrol.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pagenumtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\panel.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\paretofunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pcxexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pdfexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pen.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\performancefunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pieangle.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\piemarks.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pieotherslice.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pieseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pietool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pngexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\point3dseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pointarray.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pointer.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pointfigureseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pointseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\polarbarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\polarcontourseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\polargridseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\polarlabels.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\polarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\polygonseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\printer.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\printersettings.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pvofunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\pyramidseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\qtclustering.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\radarseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\rectangletool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\renkoseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\repaintmonitortool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\resizefilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\rmsfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\roseseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\rotatefilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\rotatetool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\rsifunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\rvifunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\sarfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\scroll.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\scrollbarthumb.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\scrollpagertool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\selectortool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\sepiafilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\series.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesanimationtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesbandtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesgroup.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesgroups.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\serieslist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesmarkposition.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesmarkspositions.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriespointeritems.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesregiontool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesstatstool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriestextfield.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriestextfields.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriestextsource.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\seriesxmlsource.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\shapecallout.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\shapeseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\sharpenfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\skewnessfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\smithseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\smoothingfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\smoothpoints.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\sobelfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\softenfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\spacing.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\stddeviationfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\strings.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\subchart.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\subchartchart.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\subcharttool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\subgradient.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\subsetteefunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\surfacenearesttool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\surfaceseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\surfacesides.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\svgexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\tablelegend.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\tagcloudseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\tchart.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeanimate.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeanimation.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\TeeChartDefines.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teecommander.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teecommanderbutton.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teecorner.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teecorners.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teecustomshape.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeeditor.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeeditoroptions.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeeditorshowpages.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeemboss.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teefilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teefont.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teefunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teegdiplus.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teelistbox.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teelistboxsection.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeopengl.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teepanelslist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teepanning.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teepicture.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teepoint2d.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teepoint3d.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teepreviewer.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeprevieweroptions.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teepreviewpanel.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teerect.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeselected.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeshadow.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeshape.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeshapeitem.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\teeshapes.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\ternaryseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\text3dtool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\textexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\textshape.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\themeslist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\tilefilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\titles.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\toollist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\tools.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\towerseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\transformanimation.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\transposeseriestool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\treemapseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\trendfunction.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\trisurfaceseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\valuelist.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\valuelists.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\vector3dseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\videoplayertool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\videotool.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\volumepipeseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\volumeseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\wall.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\walls.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\waterfallseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\windroseseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\worldflags.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\worldseries.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\xamlexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\xlsexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\xlsobjectexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\xmlexport.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\zoom.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TChartfiles\zoomfilter.h">
+      <Filter>TChartfiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ValueLabsAssignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueLabsAssignmentDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueLabsAssignmentView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputcustomer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSales.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MFCGridfiles\GridCell.cpp">
+      <Filter>MFCGridFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MFCGridfiles\GridCellBase.cpp">
+      <Filter>MFCGridFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MFCGridfiles\GridCtrl.cpp">
+      <Filter>MFCGridFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MFCGridfiles\GridDropTarget.cpp">
+      <Filter>MFCGridFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MFCGridfiles\InPlaceEdit.cpp">
+      <Filter>MFCGridFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MFCGridfiles\TitleTip.cpp">
+      <Filter>MFCGridFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\activitydonut.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\activitygauge.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\adxfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\alligatorfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\amountfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\animationlist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\animations.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\annotationcallout.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\annotationtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\antialiastool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\areaseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\arrowseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\arrowtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\aspect.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\atrfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\automatictext.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\averagefunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axes.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axis.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axisarrowtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axisbreak.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axisbreaks.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axisbreakstool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axisgridpen.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axislabels.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axislabelsitem.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axisscrollbartool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axisscrolltool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\axistitle.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\backimage.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bannertool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bar3dseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\barjoinseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\barseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bevelfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bezierseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\blurfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bmpexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bollingerfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\boxplotseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\brightnessfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\brush.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bubble3dseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\bubbleseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\calendarcell.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\calendarcellupper.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\calendarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\candleseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\canvas.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\ccifunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartanimations.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartaxispen.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartcollection.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\charteditorpanel.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartfont.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartgrid.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartgridcols.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartgridnavigator.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartgridrows.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\charthiddenpen.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartimagetool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\chartpagenavigator.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\circlelabels.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\circulargauge.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\clipseriestool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\clockgauge.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\clockhand.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\clockseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\clusteringtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\clvfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\colorbandtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\colorfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\colorgridseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\colorlinetool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\compressfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\contourlevel.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\contourlevels.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\contourmarks.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\contourseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\contrastfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\cropfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\crosstabsource.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\cursortool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\curvefittingfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\custom3dpaletteseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\customaxes.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\customfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\customserieslist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\customtextshape.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\darvasseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\datatabletool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\deltapointseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\donutseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\doublehorizbarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\downsamplingfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\dragmarkstool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\dragpointtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\drawline.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\drawlinelist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\drawlinetool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\embossfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\environment.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\epsexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\equalizerseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\equivolumeseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errorbarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errorpoint3dseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errorpointseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errors.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errors3d.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errors3dformat.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errorseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\errorsformat.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\expandanimation.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\expavgfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\explodedslices.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\expmovavgfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\export.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\extralegendtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\fadertool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\fastlineseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\fibonacciitem.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\fibonaccilevels.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\fibonaccitool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\filteritems.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\filterregion.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\flexexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\floatxyz.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\framebrush.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\framedborder.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\frametool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\fullscreentool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\funnelseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gammacorrectionfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\ganttseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gantttool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugehand.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugehanditem.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugehands.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugepointerrange.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugerange.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugeranges.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugeseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gaugeseriespointer.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gifexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gllightsource.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\glposition.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gradient.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gradientcolor.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gradientcolors.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\grayscalefilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gridbandbrush.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gridbandtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\gridtransposetool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\hierarchicalclustering.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\highlowlineseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\highlowseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\histogramfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\histogramseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\horizareaseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\horizbarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\horizboxplotseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\horizhistogramseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\horizlineseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\hover.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\htmlexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\huelumsatfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\imagebarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\imagepointseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\import.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\isosurfaceseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\javascriptexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\jpegexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\jsonexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\kagiseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\kmeansclustering.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\knobgauge.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legend.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legenditem.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legenditems.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legendpalettetool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legendpointer.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legendscrollbartool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legendsymbol.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\legendtitle.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\levelsegment.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\lightfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\lighttool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\lineargauge.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\linepointseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\lineseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\linktool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\macdfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\magnifytool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\mapmarks.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\mappolygon.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\mappolygonlist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\mapseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\margins.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\marks.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\markscallout.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\marksitem.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\markssymbol.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\markstail.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\markstiptool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\medianfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\metafileexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\mirrorfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\modefunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\moneyflowfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\mosaicfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\movingavgfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\nativeexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\nearesttool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\numericgauge.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\numericmarker.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\obvfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\odsexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\orgitem.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\orgitemcollection.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\orgseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\orgshape.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\page.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pagecontrol.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pagenumtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\panel.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\paretofunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pcxexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pdfexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pen.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\performancefunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pieangle.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\piemarks.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pieotherslice.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pieseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pietool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pngexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\point3dseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pointarray.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pointer.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pointfigureseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pointseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\polarbarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\polarcontourseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\polargridseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\polarlabels.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\polarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\polygonseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\printer.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\printersettings.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pvofunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\pyramidseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\qtclustering.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\radarseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\rectangletool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\renkoseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\repaintmonitortool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\resizefilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\rmsfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\roseseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\rotatefilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\rotatetool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\rsifunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\rvifunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\sarfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\scroll.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\scrollbarthumb.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\scrollpagertool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\selectortool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\sepiafilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\series.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesanimationtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesbandtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesgroup.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesgroups.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\serieslist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesmarkposition.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesmarkspositions.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriespointeritems.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesregiontool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesstatstool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriestextfield.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriestextfields.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriestextsource.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\seriesxmlsource.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\shapecallout.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\shapeseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\sharpenfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\skewnessfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\smithseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\smoothingfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\smoothpoints.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\sobelfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\softenfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\spacing.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\stddeviationfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\strings.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\subchart.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\subchartchart.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\subcharttool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\subgradient.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\subsetteefunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\surfacenearesttool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\surfaceseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\surfacesides.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\svgexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\tablelegend.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\tagcloudseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\tchart.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeanimate.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeanimation.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teecommander.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teecommanderbutton.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teecorner.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teecorners.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teecustomshape.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeeditor.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeeditoroptions.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeeditorshowpages.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeemboss.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teefilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teefont.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teefunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teegdiplus.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teelistbox.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teelistboxsection.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeopengl.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teepanelslist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teepanning.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teepicture.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teepoint2d.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teepoint3d.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teepreviewer.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeprevieweroptions.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teepreviewpanel.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teerect.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeselected.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeshadow.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeshape.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeshapeitem.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\teeshapes.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\ternaryseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\text3dtool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\textexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\textshape.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\themeslist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\tilefilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\titles.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\toollist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\tools.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\towerseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\transformanimation.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\transposeseriestool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\treemapseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\trendfunction.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\trisurfaceseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\valuelist.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\valuelists.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\vector3dseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\videoplayertool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\videotool.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\volumepipeseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\volumeseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\wall.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\walls.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\waterfallseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\windroseseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\worldflags.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\worldseries.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\xamlexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\xlsexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\xlsobjectexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\xmlexport.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\zoom.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TChartfiles\zoomfilter.cpp">
+      <Filter>TChartfiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ValueLabsAssignment.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\userimages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ValueLabsAssignmentDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ValueLabsAssignment.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ValueLabsAssignment.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

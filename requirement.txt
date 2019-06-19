@@ -1,0 +1,13 @@
+Create an MDI application in MFC that will do the following:
+
+1.        Simple input form to create a customer and accept data.
+2.        Input form to accept simple sales data.
+3.        Report form to render sales data with statistics like highest sales, sales in a particular period, and sales in a particular region.
+
+
+Please follow below guidelines for the test:
+
+1.        Source code should have appropriate comments.
+2.        Store data in CSV flat files as well as in any DBMS the candidate is comfortable with.
+3.        Report form should render data in tabular form and a chart. Provide 2 options for chart – Pi, bar.
+4.        Submit the work done, even if not 100% complete, within 3 working days of receipt of this e-mail in a zip file along with notes on how to use the app.
