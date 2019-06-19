@@ -1,0 +1,6 @@
+Requirements:
+1.register tchart ocx provided:
+regsvr32 <path of teechart ocx including its name>
+
+2.install mysql server.
+3.for source code load in visual studio 2017.
